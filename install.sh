@@ -5,7 +5,8 @@ if [ "$(id -u)" != "0" ]; then
   exit 1
 fi
 
-git clone https://github.com/jamrizzi/dockssh.git /tmp/dockssh
+git clone https://github.com/jamrizzi/dockssh.git /tmp/dockssh/
 pip install -r /tmp/dockssh/requirements.txt
 chmod +x /tmp/dockssh/dockssh.py
-mv /tmp/dockssh/dockssh.py dockssh
+mv /tmp/dockssh/dockssh.py /bin/dockssh
+rm -rf /tmp/dockssh/
