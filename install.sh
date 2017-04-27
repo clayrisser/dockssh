@@ -5,5 +5,5 @@ if [ "$(id -u)" != "0" ]; then
   exit 1
 fi
 
-curl -L -O /bin https://github.com/jamrizzi/dockssh/dockssh.py
+cd /bin && curl -OL https://github.com/jamrizzi/dockssh/dockssh.py
 chmod +x /bin/dockssh.py
