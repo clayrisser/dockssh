@@ -6,4 +6,4 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 curl -L -o /bin/dockssh https://github.com/jamrizzi/dockssh/dockssh.py
-chmod +x /bin/dockssh.py
+chmod +x /bin/dockssh
