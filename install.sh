@@ -7,5 +7,5 @@ fi
 
 git clone https://github.com/jamrizzi/dockssh.git /tmp/dockssh
 pip install -r /tmp/dockssh/requirements.txt
-chmod +x /bin/dockssh.py
+chmod +x /tmp/dockssh/dockssh.py
 mv /tmp/dockssh/dockssh.py dockssh
